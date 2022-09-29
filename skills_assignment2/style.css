@@ -1,0 +1,66 @@
+*{
+	background-color: DBE9EE;
+	text-align: center;
+}
+
+
+.welcome {
+ background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+
+
+}
+
+h1{
+	color: Black;
+	font-family: "helvetica";
+	font-weight: 700;
+	font-size: 50px;
+
+}
+
+h2{
+	color: Black;
+	font-family: "helvetica";
+	font-weight: 600;
+	font style:  italic;
+}
+
+p{
+	color: black;
+	font-family: "helvetica"
+	font-weight: 400;
+}
+
+.answer {
+	border-width: 10;
+	border-color: white;
+	background-color: paleblue;
+	color:  white;
+	font-family: "helvetica";
+	font-weight: 400;
+	border: 1px solid #466995;
+  	margin: 20px;
+}
+
+.question {
+  	border-width: 10;
+	border-color: white;
+	background-color: paleblue;
+	color:  white;
+	font-family: "helvetica";
+	font-weight: 400;
+	border: 1px solid #466995;
+  	margin: 20px;
+}
+
+
+
+
+
+
+
+

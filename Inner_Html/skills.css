@@ -1,0 +1,67 @@
+
+*{
+	color: black;
+	text-align: center;
+	font-family: "helvetica";
+}
+.welcome {
+ background-color: white;
+ Font-family: georgia;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+	background-color: white;
+	Font-family: georgia;
+	font-size: 50px;
+}
+
+h2 {
+	background-color: white;
+	font-size: 20px;
+
+}
+button {
+   width: 100px;
+   color: black;
+   background-color:  white;
+   border-radius: 10px;
+}
+
+.assesment {
+
+ background-color: white;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  border-color: black;
+  border-radius: 10px;
+
+
+}
+
+.q1 {
+	 background-color: white;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.q2 {
+	 background-color: white;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+
+}
+

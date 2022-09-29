@@ -1,0 +1,86 @@
+<html>
+
+	<head>
+		<link href='./skills.css' rel='stylesheet' type="text/css">
+
+	<script>
+
+
+		function question1() {
+
+			document .getElementById ("assesment").innerHTML = "You are dark and mysterious"
+		}
+
+		function question2() {
+
+			document .getElementById ("assesment").innerHTML = "You are cheery and bright"
+		}
+
+
+		function question3() {
+
+			document .getElementById ("assesment").innerHTML = "You are inteligent and honest"
+		}
+
+		var colors1= [ "#82655F", "#0C4534", "#2B215C", "#020205"]
+
+		function aura1(){
+			c1 = Math.floor(Math.random()*3)
+			document.body.style.backgroundColor = colors1 [c1];
+		}	
+
+		var colors2 = [ "#FCB37C", "#FCD93F", "#C9C4F9", "#0DFFCF"]
+
+		function aura2(){
+			c2 = Math.floor(Math.random()*3)
+			document.body.style.backgroundColor = colors2 [c2];
+		}	
+
+
+		var colors3 = [ "#1E23DB", "#0DB3CF", "#0CA2AC", "#C7C0BF"]
+
+		function aura3 (){
+			blu = Math.floor(Math.random()*3)
+			document.body.style.backgroundColor = colors3 [blu];
+		}	
+
+
+	</script>
+
+	</head>
+
+	<body>
+
+		<div class="welcome">
+		<h1>Who are you really?</h1><br>
+		<h2>Pick a bird to see a description of your soul</h2>
+		<h2>Pick an object to see the color of your aura</h2>
+		</div>
+
+		<br>
+
+		<div class = q1>
+		<button onclick="question1()">Raven</button><br><br>
+		<button onclick="question2()">Canary</button><br><br>
+		<button onclick="question3()">Owl</button><br><br>
+	    </div>
+
+	    <br><br>
+
+		<div class =q2>
+		<button onclick="aura1()">Spyglass</button><br><br>
+		<button onclick="aura2()">Diasy</button><br><br>
+		<button onclick="aura3()">Book</button><br><br>
+	   </div>
+
+	     <br><br>
+	
+	<div class = "assesment">
+
+	<div id="assesment">
+	
+	</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Simple Function</title>
+
+
+		<script>
+
+			var colors =["#0f27fa", "#fa261d", "fae645", "7cfa89" ]
+
+			function changeMood(){
+				
+					num = Math.floor(Math.random()* 4);
+					document.body.style.backgroundcolor = colors[num];
+		
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+
+	<button onclick="changeMood()">Change Mood</button>
+
+
+	</body>
+
+</html>
