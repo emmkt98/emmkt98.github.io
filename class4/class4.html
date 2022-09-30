@@ -1,0 +1,73 @@
+<html>
+<head>
+
+
+<meta charset="utf-8">
+
+<title></title>
+
+<script>
+
+	var fruits = ["apple","kiwi", "orange", "pear"];
+	for (i=0; i< 4; i++){ 
+		console.log(fruits[i])
+
+	}
+
+	for (item in fruits){
+		console.log(fruits[item])
+	}
+
+//when button with corresponding parameter case is selected second thing happens
+	function getVal(param1){
+		switch (param1){
+			case 'one':
+				alert("god save the queen");
+				break;
+			case 'two':
+				alert ("she was a good old broad");
+				break;
+			case 'three':
+				alert ("alert 3");	
+		}
+	}
+
+//objects let you pair diferent types of data and your property can also be a funtion
+// when you right funtions inside an objects you reverse the name and fudntion
+
+// funtion_nameOfFunvtion (){}
+//nameofFunctionObject_function(){} use "this"
+	
+
+
+	var animal = {
+		name: "tiger",
+		color: 'orange', 
+		size: 'medium', 
+		type: 'big cat',
+		notice: function () {
+			alert (this.name);
+
+		}
+	}
+
+	animal.notice();
+
+</script>
+
+
+
+</head>
+
+<body>
+
+
+<button onclick="getVal('one')">queen</button>
+<button onclick="getVal('two')">Elizabeth</button>
+<button onclick="getVal('three')">II</button>
+
+
+
+</body>
+
+</html>
