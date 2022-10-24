@@ -1,0 +1,90 @@
+
+body{
+	height: 4613px;
+	background-color: #A2BD6E;
+}
+
+.panel{
+	position: absolute;
+	width: 1048px;
+	height: 3519px;
+	left: 241px;
+	top: 117px;
+}
+
+canvas{
+  	position: sticky;
+  	top: 100px;
+  
+}
+
+.start{
+	position: absolute;
+	width: 452px;
+	height: 59px;
+	left: 544px;
+	top: 3804px;
+	background: #DAE1CD;
+	border-radius: 40px;
+	font-size: 20px;
+	font-family: serif; 
+}
+
+.score{
+	display: flex;
+    justify-content: center; 
+    font-family: serif; 
+  	position: absolute;
+	width: 212px;
+	height: 59px;
+	left: 544px;
+	top: 3881px;
+	background: #C2D79C;
+	border-radius: 40px;
+	font-size: 13px;
+	text-align: center;
+   
+}
+
+.time{
+	display: flex;
+    justify-content: center; 
+    font-family: serif; 
+  	position: absolute;
+	width: 212px;
+	height: 59px;
+	left: 770px;
+	top: 3881px;
+	background: #C2D79C;
+	border-radius: 40px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.game{
+  	position: absolute;
+	width: 632px;
+	height: 576px;
+	left: 440px;
+	top: 3969px;
+	background: url("witch.jpg");
+
+}
+
+.grid{
+    justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	width: 606px;
+	height: 606px;
+}
+
+.square{
+	height: 200px;
+	width: 200px;
+
+}
+
+.mole{
+	background-image: url("mole.png");
+}
